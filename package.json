@@ -1,0 +1,38 @@
+{
+  "name": "test-codes",
+  "version": "1.0.0",
+  "description": "",
+  "main": "autocannon.js",
+  "dependencies": {
+    "-": "0.0.1",
+    "async-retry": "^1.3.1",
+    "autocannon": "^4.4.1",
+    "compression": "^1.7.4",
+    "crypto": "^1.0.1",
+    "express": "^4.17.1",
+    "express-jwt": "^5.3.1",
+    "got": "^11.0.2",
+    "jsdoc": "^3.6.3",
+    "jwks-rsa": "^1.6.0",
+    "knex": "^0.21.1",
+    "lodash": "^4.17.15",
+    "node-tesseract-ocr": "^1.0.0",
+    "object-mapper": "^6.2.0",
+    "p-all": "^3.0.0",
+    "pg": "^8.0.3",
+    "pino": "^6.1.1",
+    "redis": "^3.0.2",
+    "request": "^2.88.0",
+    "request-promise": "^4.2.5",
+    "superagent": "^5.2.2",
+    "tesseract.js": "^1.0.19",
+    "uuid": "^8.1.0",
+    "xml-js": "^1.6.11"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Harish Matta",
+  "license": "ISC"
+}
