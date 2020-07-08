@@ -14,7 +14,11 @@
   "eslint.format.enable": true,
   "eslint.run": "onSave",
   "cSpell.words": [
+    "Logality",
     "Matta",
-    "harishmatta"
+    "Regexes",
+    "harishmatta",
+    "logme",
+    "pino"
   ]
 }
