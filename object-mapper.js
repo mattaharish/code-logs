@@ -12,8 +12,9 @@ const input = [
 ];
 
 const outputMapper = {
-  a: 'x',
-  b: 'y',
+  'data.userName.lastName1': 'x',
+  'data.userName.lastName2': 'y',
+  a: 'z',
 };
 
 const output = om(input, outputMapper);
