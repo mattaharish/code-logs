@@ -35,7 +35,7 @@ const bun = () => {
     );
 };
 
-(async () => {
+async () => {
   try {
     await bun();
   } catch (err) {
@@ -50,5 +50,13 @@ const bun = () => {
     // console.log('lineNumber: ', err.lineNumber);
     // console.log('To String: ', err.toString());
     console.log(err);
+  }
+};
+
+(async () => {
+  try {
+    throw new Error({skip: true});
+  } catch (error) {
+    console.log(error);
   }
 })();

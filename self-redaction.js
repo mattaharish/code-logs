@@ -55,8 +55,8 @@ const start = () => {
   console.time('redaction');
 
   for (let i = 0; i < 1000000; i++) {
-    // const redactResult = arrayRedactor(request);
-    const redactResult = regexRedactor(request);
+    arrayRedactor(request);
+    // regexRedactor(request);
     // console.log(redactResult);
   }
 
@@ -66,11 +66,11 @@ const start = () => {
   console.timeEnd('redaction');
 };
 
-// start();
+start();
 
-const deepCopyV8 = (data) => deserialize(serialize(data));
+// const deepCopyV8 = (data) => deserialize(serialize(data));
 
-const deepCopyJSON = (data) => JSON.parse(JSON.stringify(data));
+// const deepCopyJSON = (data) => JSON.parse(JSON.stringify(data));
 
 // const copied = deepCopyJSON(request);
 
@@ -86,18 +86,18 @@ const deepCopyJSON = (data) => JSON.parse(JSON.stringify(data));
 // console.log(copied);
 // console.log(v8Copied);
 
-const perfV8 = (data) => deepCopyV8(data);
+// const perfV8 = (data) => deepCopyV8(data);
 
-const perfJson = (data) => deepCopyJSON(data);
+// const perfJson = (data) => deepCopyJSON(data);
 
-const loop = 100000;
+// const loop = 100000;
 
-console.time(`${loop} - v8`);
-for (let i = 0; i < loop; i++) {
-  // const copied = perfV8(request);
-  perfV8(request);
-  // perfJson(request);
-  // const copied = perfJson(request);
-  // console.log(copied);
-}
-console.timeEnd(`${loop} - v8`);
+// console.time(`${loop} - v8`);
+// for (let i = 0; i < loop; i++) {
+// const copied = perfV8(request);
+// perfV8(request);
+// perfJson(request);
+// const copied = perfJson(request);
+// console.log(copied);
+// }
+// console.timeEnd(`${loop} - v8`);

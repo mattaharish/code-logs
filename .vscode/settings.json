@@ -19,6 +19,10 @@
     "Logality",
     "Matta",
     "Regexes",
+    "dotfiles",
+    "dyno",
+    "etag",
+    "fastify",
     "harishmatta",
     "logme",
     "pino"
