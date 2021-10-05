@@ -18,7 +18,7 @@
     "fastify": "^3.0.2",
     "fastify-metrics": "^6.0.1",
     "fastify-plugin": "^2.0.3",
-    "fastify-static": "^3.2.0",
+    "fastify-static": "^4.2.4",
     "glob": "^7.1.6",
     "got": "^11.7.0",
     "image-download": "^1.3.2",
